@@ -1,11 +1,16 @@
 import React from 'react';
 import './App.css';
-import ThemeSwitcher from './ThemeSwitcher';
-import NavBar from './NavBar';
+import Head from './components/Head';
+import CarrousselPage from './components/Carroussel/CarrousselControl2';
 
 function App() {
   return (
-    <NavBar></NavBar>)
+    <div>
+      <Head />
+      <CarrousselPage />
+
+    </div>
+  )
 }
 
 export default App;
