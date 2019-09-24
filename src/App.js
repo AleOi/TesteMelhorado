@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import NavBar2 from './components/NavBar/NavBar2';
-import CarrousselPage from './components/Carroussel/CarrousselControl2';
+import ToDo from './components/Todo/TODO1/ToDo';
 
 function App() {
+
+
   return (
     <div>
-      <NavBar2 />
-      <CarrousselPage />
+      <ToDo />
     </div>
   )
 }
